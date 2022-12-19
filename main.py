@@ -4,10 +4,10 @@ import numpy as np
 from PIL import Image
 
 
-st.title('REDC')
+
 html_temp="""
 <body style = "background-color:red;">
-<div style ="background-color:teal;padding:10px">
+<div style ="background-color:tomato;padding:20px">
 <h2 style="color:white;text-align:center;">Red Eye Detection And Corretion</h2>
 </div>
 </body>
