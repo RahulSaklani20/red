@@ -71,5 +71,6 @@ if image_file is not None:
 if image_file is not None and st.button('Result'):
     our_image= Image.open(image_file)
     result_image = detect_eyes();
+    st.write("Output Image")
     st.image(result_image, channels="BGR")
 
